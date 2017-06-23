@@ -1,7 +1,32 @@
 <template>
   <div id="app" style="height:100%;">
 
+    <view-box ref="viewBox" >
+
         <router-view class="router-view"></router-view>
+
+    </view-box>
+
+
+
+
+
+    <tabbar>
+      <tabbar-item selected link="/lv/" show-dot >
+        <img slot="icon" src="../assets/demo/icon_nav_button.png">
+        <span slot="label">总览</span>
+      </tabbar-item>
+
+      <tabbar-item selected link="/lv/notify" badge="2">
+        <img slot="icon" src="../assets/demo/icon_nav_article.png">
+        <span slot="label">消息</span>
+      </tabbar-item>
+      <tabbar-item selected link="/lv/about" >
+        <img slot="icon" src="../assets/demo/icon_nav_cell.png">
+        <span slot="label">我的</span>
+      </tabbar-item>
+    </tabbar>
+
 
   </div>
 </template>
@@ -100,6 +125,7 @@
 
   .router-view {
     width: 100%;
+    top: 46px;
   }
   .vux-pop-out-enter-active,
   .vux-pop-out-leave-active,

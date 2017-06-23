@@ -1,5 +1,6 @@
 <template>
   <div>
+    <x-header :left-options="{showBack: false}" :right-options="{showMore: true}" @on-click-more="showMenus = true">数字化工厂</x-header>
     <div class="vux-demo">
       <img class="logo" src="../assets/vux_logo.png">
       <h1>消息</h1>
@@ -29,10 +30,11 @@
 
 
 <script>
-  import { Badge, Group, Cell } from 'vux'
+  import { XHeader, Badge, Group, Cell } from 'vux'
 
   export default {
     components: {
+      XHeader,
       Badge,
       Group,
       Cell

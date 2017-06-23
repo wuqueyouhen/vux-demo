@@ -1,4 +1,4 @@
-<template>
+  <template>
   <div>
     <divider>default</divider>
     <box gap="10px 10px">

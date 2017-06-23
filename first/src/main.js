@@ -5,15 +5,18 @@ import FastClick from 'fastclick'
 import VueRouter from 'vue-router'
 import App from './App'
 
-import { AjaxPlugin } from 'vux'
+import Vuex from 'vuex'
+Vue.use(Vuex)
+import store from './vuex'
 
 
 import router from './router'
 
 Vue.use(VueRouter)
 
-
+import { AjaxPlugin } from 'vux'
 Vue.use(AjaxPlugin)
+
 
 
 FastClick.attach(document.body)
@@ -22,6 +25,7 @@ Vue.config.productionTip = false
 
 /* eslint-disable no-new */
 new Vue({
+  store,
   router,
   render: h => h(App)
 }).$mount('#app-box')

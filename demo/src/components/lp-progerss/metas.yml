@@ -1,0 +1,12 @@
+icon: '&#xe618;'
+tags:
+  en:
+    - progress
+  zh-CN:
+    - 进度
+props:
+  percent:
+    type: Number
+    default: 0
+    en: percent of the progress, 0-100
+    zh-CN: 进度值，0到100

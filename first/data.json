@@ -1,9 +1,9 @@
 {
   "workorder": [
-  { "id": "1", "productname": "保温杯#01", "processname": "杯盖#01", "rate": "51%", "state": "生产中", "goodproduct": "490", "flawproduct": "23", "badproduct": "11" },
-  { "id": "2", "productname": "保温杯#01", "processname": "杯身#01", "rate": "63%", "state": "生产中", "goodproduct": "240", "flawproduct": "33", "badproduct": "13" },
-  { "id": "3", "productname": "保温杯#01", "processname": "密封圈#01", "rate": "71%", "state": "生产中", "goodproduct": "420", "flawproduct": "31", "badproduct": "12" },
-  { "id": "4", "productname": "保温杯#02", "processname": "杯盖#01", "rate": "33%", "state": "生产中", "goodproduct": "610", "flawproduct": "42", "badproduct": "5" }
+  { "id": "1", "productname": "保温杯#01", "processname": "杯盖#01", "rate": "51", "state": "生产中", "goodproduct": "490", "flawproduct": "23", "badproduct": "11" },
+  { "id": "2", "productname": "保温杯#01", "processname": "杯身#01", "rate": "63", "state": "生产中", "goodproduct": "240", "flawproduct": "33", "badproduct": "13" },
+  { "id": "3", "productname": "保温杯#01", "processname": "密封圈#01", "rate": "98", "state": "生产中", "goodproduct": "420", "flawproduct": "31", "badproduct": "12" },
+  { "id": "4", "productname": "保温杯#02", "processname": "杯盖#01", "rate": "33", "state": "生产中", "goodproduct": "610", "flawproduct": "42", "badproduct": "5" }
   ],
   "seller": {
     "name": "粥品香坊（回龙观）",

@@ -2,8 +2,6 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Hello from '../components/Hello'
 import HelloFromVux from '../components/HelloFromVux'
-
-
 import Notify from '../dfs/Notify'
 import About from '../dfs/About'
 import OrderDetail from '../dfs/leader/OrderDetail'
